@@ -1,0 +1,103 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf3e7;
+    color: #b44242;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+
+#hero {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8e1c4;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#hero h2 {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: #8b0000;
+}
+
+#menu {
+    padding: 2rem;
+    text-align: center;
+}
+
+#menu h2 {
+    margin-bottom: 1rem;
+    color: #8b0000;
+}
+
+.dish {
+    margin: 1rem 0;
+}
+
+#contact {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8e1c4;
+}
+
+#contact h2 {
+    margin-bottom: 1rem;
+    color: #8b0000;
+}
+
+button {
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #a52a2a;
+}
